@@ -22,8 +22,8 @@
     "prestart": "npm run css",
     "prebuild": "npm run css"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "tachyons": "^4.11.1"
   },
   "browserslist": {
     "production": [
@@ -36,8 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tachyons": "^4.11.1"
   }
 }
