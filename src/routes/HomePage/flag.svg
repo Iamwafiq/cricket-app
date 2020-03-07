@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="32px" viewBox="0 0 51 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>flag_empty</title>
+    <desc>Created with Sketch.</desc>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag_empty" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#E1E1E1" x="0" y="21" width="51" height="11"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="11" width="51" height="10"></rect>
+            <rect id="Rectangle" fill="#E1E1E1" x="0" y="0" width="51" height="11"></rect>
+            <polygon id="Star" fill="#D8D8D8" points="25 18 22.648859 19.236068 23.097887 16.618034 21.1957739 14.763932 23.8244295 14.381966 25 12 26.1755705 14.381966 28.8042261 14.763932 26.902113 16.618034 27.351141 19.236068"></polygon>
+            <polygon id="Star" fill="#D8D8D8" points="14 17.5 12.2366442 18.427051 12.5734152 16.4635255 11.1468305 15.072949 13.1183221 14.7864745 14 13 14.8816779 14.7864745 16.8531695 15.072949 15.4265848 16.4635255 15.7633558 18.427051"></polygon>
+            <polygon id="Star" fill="#D8D8D8" points="36 17.5 34.2366442 18.427051 34.5734152 16.4635255 33.1468305 15.072949 35.1183221 14.7864745 36 13 36.8816779 14.7864745 38.8531695 15.072949 37.4265848 16.4635255 37.7633558 18.427051"></polygon>
+        </g>
+    </g>
+</svg>
