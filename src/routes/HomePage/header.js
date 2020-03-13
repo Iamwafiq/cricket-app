@@ -12,9 +12,9 @@ const HeaderComponent = (props) =>{
         <button className="f6 f5-l fw6 bg-white-90 gray w-30 hover-bg-white-80 hover-light-red pa3" onClick={() => getGameDetails("Completed", "status")}>COMPLETED</button> 
       </div>
       <div className=" tc bg-white-90 bt-ns ">
-        <button className="f6 f5-l bn-ns bg-white-90 black-80 w-30 hover-bg-light-yellow dib pa3 tc" onClick={() => getGameDetails("All", "type")}>All</button>
-        <button className="f6 f5-l bn-ns bg-white-90 black-80 w-30 hover-bg-light-yellow dib pa3 tc" onClick={() => getGameDetails("International", "type")}>International</button>
-        <button className="f6 f5-l bn-ns bg-white-90 black-80 w-30 hover-bg-light-yellow dib pa3 tc" onClick={() => getGameDetails("Domestic", "type")} >Domestic</button> 
+        <button className="f6 f5-l  bg-white-90 black-80 w-30 hover-light-red dib pa3 tc" onClick={() => getGameDetails("All", "type")}>All</button>
+        <button className="f6 f5-l  bg-white-90 black-80 w-30 hover-light-red dib pa3 tc" onClick={() => getGameDetails("International", "type")}>International</button>
+        <button className="f6 f5-l  bg-white-90 black-80 w-30 hover-light-red dib pa3 tc" onClick={() => getGameDetails("Domestic", "type")} >Domestic</button> 
       </div>
     </div>
   );

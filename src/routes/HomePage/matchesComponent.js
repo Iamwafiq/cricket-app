@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import { useQuery } from "@apollo/react-hooks";
 import gql from 'graphql-tag';
-import flag from './flag.svg'
+import flag from './flag.png'
 
 class MatchesComponent extends Component {
 	constructor (props){
@@ -58,7 +58,7 @@ class MatchesComponent extends Component {
 					</div>
 				</div>		
 			</div>
-				<div className="pa1 br4 f8 fw4 tc black-90 bg-orange mt1 truncate-ns center-ns">{d.statusMessage}</div>
+				<div className="pa1 br4 f8 fw4 tc white-80 bg-dark-gray mt1 truncate-ns center-ns">{d.statusMessage}</div>
 			</div>
 		))
 			
@@ -69,15 +69,15 @@ class MatchesComponent extends Component {
 		)
 	}
 	render(){
-		const {data, loading} = this.props;
+		const {data,loading} = this.props;
 		return(
 			<div>
 				<div className="flex-row pb4">
-					<button className="fl bg-white-90 gray hover-black-80 " onClick={()=>this.decreasePage()}>❮</button>
-					<button className="fr bg-white-90 gray hover-black-80 " onClick={()=>this.increasePage()}>❯</button>
+					<button className="fl bg-white-90 gray hover-black-80 " onClick={()=>this.decreasePage()}>❮ Previous</button>
+					<button className="fr bg-white-90 gray hover-black-80 " onClick={()=>this.increasePage()}>Next ❯</button>
 				</div>
 					{data && data.schedule.length? <div>{this.buildTable()}</div>: 
-					<div className="calisto fw5 f3 bg-white shadow-4 pointer br2 w-60 tc center-ns mb2">No Matches Available</div>}
+					<div className="calisto fw5 f3 pointer w-60 vh-100 absolute--fill tc center-ns mb2"><span>No Matches Available</span></div>}
 			</div>
 		)	
 	}
